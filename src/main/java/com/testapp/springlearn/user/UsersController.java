@@ -22,10 +22,10 @@ public class UsersController {
 
         Users user2 = new Users(
                 "u2",
-                "Jim",
-                "Mayunga",
+                "John",
+                "Doe",
                 new Location("l2", "Nairobi"),
-                "jimmayunga@gmail.com");
+                "johndoe@gmail.com");
 
         return Arrays.asList(user1, user2);
     }
